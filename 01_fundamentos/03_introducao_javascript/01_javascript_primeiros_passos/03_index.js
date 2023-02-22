@@ -13,10 +13,15 @@ deve considerar que o imposto de 20% faz parte do valor de custo.
 valorCustoTotal = valorCusto + impostoSobreOCusto;
 lucro = valorVenda - valorCustoTotal (lucro de um produto);*/
 
+let custoDeUmProduto = 10;
+let valorDeVenda = 20;
+let quantidadeDeProdutos = 1000;
+let lucro = valorDeVenda - (custoDeUmProduto + (custoDeUmProduto * 0.2));
 
-
-
-
-
+if (custoDeUmProduto <= 0) {
+    console.log(`Favor entrar com um valor para custo de um produto ou valor de venda que seja maior que zero.`)
+} else {
+    console.log(`Obteve um total de ${lucro} do seu lucro`);
+}
 
 
