@@ -21,11 +21,10 @@ for (let index = 0; index < numeros.length; index += 1) {
 }
 console.log('Questão 2: ' + resultado);
 
-*/
-/*
+
 3) Calcule e imprima a média aritmética dos valores contidos no array. 
 A média aritmética é o resultado da soma de todos os elementos dividido pelo 
-número total de elementos.*/
+número total de elementos.
 let numeros = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let resultado = 0;
 
@@ -33,13 +32,27 @@ for (let index = 0; index < numeros.length; index += 1) {
     resultado += numeros[index];
 }
 console.log('Questão 3: '+resultado/numeros.length);
+*/
+/*
+4) Com base no código que acabou de gerar, faça com que: caso o valor final seja 
+maior que 20, imprima a mensagem “Valor maior que 20”; e, caso não seja maior que 20, 
+imprima a mensagem “Valor menor ou igual a 20”.
+*/
+let numeros = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let resultado = 0;
 
+for (let index = 0; index < numeros.length; index += 1) {
+    resultado += numeros[index];
+}
+let mediaAritmetica= resultado/numeros.length;
 
+if(mediaAritmetica>20){
+    console.log('Valor maior que 20')
+}else{
+    console.log('Valor menor ou igual a 20')
+}
 
 /*
-5) Com base no código que acabou de gerar, faça com que: caso o valor final seja 
-maior que 20, imprima a mensagem “Valor maior que 20”; e, caso não seja maior que 20, 
-6) imprima a mensagem “Valor menor ou igual a 20”.
 7) Utilizando for, descubra o maior valor contido no array e imprima-o.
 8) Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista 
 nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
