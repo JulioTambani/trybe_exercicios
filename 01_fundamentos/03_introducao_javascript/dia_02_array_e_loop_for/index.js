@@ -17,8 +17,8 @@ maior que 20, imprima a mensagem “Valor maior que 20”; e, caso não seja mai
 nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
 9) Utilizando for, descubra o menor valor contido no array e imprima-o.
 10) Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
-11) Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um 
-dos elementos por 2..
+11) Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2..
+dos elementos por 2.
 */
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 

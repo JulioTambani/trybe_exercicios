@@ -9,7 +9,7 @@ if (salarioBruto > 0 && salarioBruto <= 1556.94) {
 } else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
     aliquotaInss = salarioBruto * 0.11;
 } else {
-    aliquotaInss = 570.880;
+    aliquotaInss = 570.88;
 }
 
 let salarioBase = salarioBruto - aliquotaInss;
