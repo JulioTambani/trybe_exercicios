@@ -19,7 +19,7 @@
 
  for (let index = 1; index < numbers.length; index += 1) {
    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
-     if (numbers[index] > numbers[secondIndex]) {
+     if (numbers[index] > numbers[secondIndex]) { // aqui foi trocado o sinal para dar certo 
        let position = numbers[index];
        numbers[index] = numbers[secondIndex];
        numbers[secondIndex] = position;
