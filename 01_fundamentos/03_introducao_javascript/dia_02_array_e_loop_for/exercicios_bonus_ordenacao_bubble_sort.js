@@ -38,15 +38,31 @@
 //   e assim por diante. Caso não haja valor seguinte, a multiplicação deverá ser feita por 2. 
 //   Faça isso utilizando o for e o método push. O resultado deve ser o array abaixo:
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let newArray = [];
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let newArray = [];
 
-for (let index = 0; index < numbers.length; index += 1) {
-  if (index < (numbers.length - 1)) { 
-    newArray.push(numbers[index] * numbers[index + 1]);
-  } else {
-    newArray.push(numbers[index] * 2);
-  }
-}
+// for (let index = 0; index < numbers.length; index += 1) {
+//   if (index < (numbers.length - 1)) { 
+//     newArray.push(numbers[index] * numbers[index + 1]);
+//   } else {
+//     newArray.push(numbers[index] * 2);
+//   }
+// }
 
-console.log(newArray);
+// console.log(newArray);
+
+// 4) Agora, trabalhe com algumas formas geométricas! Utilize a estrutura de repetição
+// for para escrever os códigos a seguir:
+//Escreva um algoritmo que, dado um valor n positivo, ou seja, n > 1, imprima na tela 
+// um quadrado feito de asteriscos de tamanho n.
+
+let n = 5;
+let symbol = '*';
+let inputLine = '';
+
+for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  inputLine = inputLine + symbol;
+};
+for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  console.log(inputLine);
+};
