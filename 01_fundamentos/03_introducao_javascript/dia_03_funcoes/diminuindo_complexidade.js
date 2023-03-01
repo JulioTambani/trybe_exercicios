@@ -24,4 +24,9 @@ function removeCliente(cliente) {
     if (validacao !== true) {
       return validacao;
     }
+  
+    let index = clienteIndex(cliente);
+    if (index === false) {
+      return 'Cliente não encontrada(o).'
+    }
   }
