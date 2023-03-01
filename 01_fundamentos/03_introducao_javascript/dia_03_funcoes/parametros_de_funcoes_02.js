@@ -22,4 +22,4 @@ function removeCliente(cliente) {
 console.log(removeCliente(false)); // O parâmetro passado deve ser do tipo "string"!
 console.log(removeCliente('Barney')); // Cliente não encontrada(o)
 console.log(removeCliente('John')); // Cliente excluída(o) com sucesso.
-console.log(clientesTrybeBank); // [ 'Ada', 'Gus' ]
+console.log(clientesTrybeBank); // [ 'Ada', 'Gus' ].
