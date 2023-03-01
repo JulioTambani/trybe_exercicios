@@ -10,11 +10,18 @@
 //   }
 // }
 
-function clienteIndex(cliente) {
-    for (let index = 0; index < clientesTrybeBank.length; index += 1) {
-      if (cliente === clientesTrybeBank[index]) {
-        return index;
-      }
+// function clienteIndex(cliente) {
+//   for (let index = 0; index < clientesTrybeBank.length; index += 1) {
+//     if (cliente === clientesTrybeBank[index]) {
+//       return index;
+//     }
+//   }
+//   return false;
+// }
+
+function removeCliente(cliente) {
+    let validacao = validaCliente(cliente);
+    if (validacao !== true) {
+      return validacao;
     }
-    return false;
   }
