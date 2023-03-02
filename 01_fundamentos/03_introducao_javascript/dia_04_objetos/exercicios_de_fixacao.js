@@ -21,14 +21,14 @@ let player = {
     medals: { golden: 2, silver: 3 }
 
 };
-// console.log('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' anos de idade.');
+console.log('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' anos de idade.');
 
 
 // 2)Adicione ao objeto a chave bestInTheWorld por meio da sintaxe meuObjeto.chave = valor e atribua a essa chave um array que contenha as datas em que a jogadora Marta foi considerada a melhor do mundo.
 
 // R:
 player.bestInTheWorld = [2006, 2007, 2008, 2009, 2010, 2018]; // Ao tentar acessar uma chave inexistente, o JavaScript automaticamente criará essa chave.
-// console.log(player); //aqui para fazer o teste e imprimir a resolução.
+console.log(player); //aqui para fazer o teste e imprimir a resolução.
 
 
 // 3) Acesse a chave bestInTheWorld por meio da sintaxe meuObjeto['chave'] e faça um console.log no seguinte formato: “A jogadora Marta Silva foi eleita a melhor do mundo por 6 vezes”.
@@ -37,3 +37,7 @@ player.bestInTheWorld = [2006, 2007, 2008, 2009, 2010, 2018]; // Ao tentar acess
 
 //console.log('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a melhor do mundo por ' + player['bestInTheWorld'].lenght + ' vezes. '); // esse que eu fiz dá indefinido o numero  de vezes.
   console.log('A jogadora ' + player['name'] + ' ' + player['lastName'] + ' foi eleita a melhor do mundo por ' + player['bestInTheWorld'].length + ' vezes.');
+
+// 4) Acesse a chave medals por meio da sintaxe meuObjeto.chave e faça um console.log no seguinte formato: “A jogadora possui 2 medalhas de ouro e 3 medalhas de prata”.
+
+console.log('A jogadora possui '+ player.medals.golden +' medalhas de ouro e '+ player.medals.silver+ ' medalhas de prata.');
