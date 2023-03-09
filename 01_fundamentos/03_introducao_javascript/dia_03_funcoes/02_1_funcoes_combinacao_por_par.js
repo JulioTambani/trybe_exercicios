@@ -13,4 +13,4 @@ function sortNumber(array) {
 
 }
 
-console.log(sortNumber([4, 1, 5, 2, 9, 3, 8, 6, 7]));
+console.log(sortNumber([9, 1, 2, 3, 9, 5, 7]));
